@@ -13,11 +13,14 @@ def process():
     person = request.form["User"]
     pw = request.form["Pass"]
     reqmeth = request.method
-    if (person == "KenM") and (pw == "1234"):
-        session["username"] = person
-        return render_template('welcome.html', name = person, method = reqmeth)
+    if (person == "KenM"):
+        if (pw == "1234"):  
+            session["username"] = person
+            return render_template('welcome.html', name = person, method = reqmeth)
+        else:
+            return render_template('login.html', message = "Invalid Password")
     else:
-        return render_template('login.html', message = "Invalid Login Credentials, Please Try Again")
+        return render_template('login.html', message = "Invalid Username")
 
 @app.route("/logout")
 def logout():
