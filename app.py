@@ -1,3 +1,8 @@
+#Team Hello...
+#Tiffany Moi and Alessandro Cauthon
+#SoftDev1 pd7
+#HW07 -- Do I Know You?
+#2017-10-05
 from flask import Flask, render_template, request, session
 import os
 app = Flask(__name__)
