@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Results!</title>
+  </head>
+  <body>
+    <h1>WOW!</h1>
+    <p>Hi {{name}}! It's nice to meet you!</p>
+    <p>You entered in your info using {{method}}</p>
+    <p>Great choice of {{fry}} fries! I love those too!</p>
+  </body>
+</html>

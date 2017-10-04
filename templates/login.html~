@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FRIES</title>
+  </head>
+  <body>
+    <h1>Choose your favorite type of fries!</h1>
+    <form action="/auth">
+      <p>Gimme some info</p>
+      <p><strong>What's your name?</strong></p>
+      <input type="text" name="Name"><br>
+      <p><strong>Fry Preference?</strong></p>
+      <input type="radio" name="Type" value="Curly">Curly<br>
+      <input type="radio" name="Type" value="Crinkle Cut"> Crinkle Cut<br>
+      <input type="radio" name="Type" value="Waffle"> Waffle <br><br>
+      <input type="submit" value="Tell me!">
+    </form>
+  </body>
+</html>
